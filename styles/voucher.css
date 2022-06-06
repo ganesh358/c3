@@ -1,0 +1,33 @@
+#navbar{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+
+#voucher_list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 1.5rem;
+}
+#voucher_list>div{
+    border: 1px solid black;
+}
+
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+button{
+    margin-left: 11rem;
+    margin-bottom: 1rem;
+}
